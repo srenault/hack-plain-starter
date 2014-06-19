@@ -14,7 +14,7 @@ Your plain Hack starter project is now up and running! However, by default, it w
 
 #### Configure the starter project
 
-Change the ```https://lesbonneschoses.prismic.io/api``` API endpoint in the `resources/config.php` file into your repository's endpoint.
+Change the ```https://lesbonneschoses.prismic.io/api``` API endpoint in the `core/app/App.php` file into your repository's endpoint.
 
 To set up the OAuth configuration and interactive signin, go to the _Applications_ panel in your repository's settings, and create a new OAuth application. You simply have to fill in an application name and potentially the callback URL (`localhost` URLs are always authorized, so at development time you can omit to fill in the Callback URL field). After submitting, copy/paste the `clientId` & `clientSecret` tokens into the proper place in your configuration.
 
